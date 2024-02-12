@@ -10,5 +10,4 @@ def predict_my_file():
     df.to_csv('result.csv')
 
 if __name__=='__main__':
-    print(os.listdir('task1'))
     predict_my_file()
